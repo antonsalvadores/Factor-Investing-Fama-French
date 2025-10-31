@@ -4,8 +4,8 @@ This project, developed for the M.Sc. in Quantitative Banking and Finance, condu
 
 ---
 ### 📄 Key Project Documents
-* **[View the Final Paper (PDF)](docs/Factor_Investing_Paper.pdf)**
-* **[View the Assignment Guidelines (PDF)](docs/Assignment_Guidelines.pdf)**
+* **[View the Final Paper (PDF)](docs/Statement.pdf)**
+* **[View the Assignment Guidelines (PDF)](docs/Assignment.pdf)**
 
 ### 📊 Key Results
 * **[OLS Regressions (3-Factor Model)](results/3_Factor_Model_OLS.html)**
