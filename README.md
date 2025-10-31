@@ -1,20 +1,17 @@
 # Factor Investing Models: Fama-French vs. Carhart
 
-This project, developed for the M.Sc. in Quantitative Banking and Finance, conducts an empirical comparison of the Fama-French 3-Factor model and the Carhart 4-Factor model to explain European stock returns.
+This project, developed for my M.Sc. in Quantitative Banking and Finance, conducts an empirical comparison of the Fama-French 3-Factor model and the Carhart 4-Factor model to explain European stock returns.
 
 ---
-### 📄 Key Project Documents
+### Project Documents
 * **[View the Final Paper (PDF)](docs/Paper.pdf)**
 * **[View the Assignment Guidelines (PDF)](docs/Assignment.pdf)**
 
-### 📊 Key Results
-* **[OLS Regressions (3-Factor Model)](results/3_Factor_Model_OLS.html)**
-* **[OLS Regressions (4-Factor Carhart Model)](results/4_Factor_Carhart_OLS.html)**
 ---
 
 ## Project Objectives
 
-[cite_start]The goal was to determine which model provides a better explanation for the returns of 25 European portfolios, sorted by size (ME) and book-to-market (B/M)[cite: 1834].
+The goal is to determine which model provides a better explanation for the returns of 25 European portfolios, sorted by size (ME) and book-to-market (B/M).
 
 The project compares two key asset pricing models:
 1.  **Fama-French 3-Factor Model:** Uses Market (Mkt-RF), Size (SMB), and Value (HML) factors.
@@ -32,7 +29,7 @@ The analysis was conducted in two main stages:
 ### 1. OLS Time-Series Regressions
 * Standard OLS regressions were run for each of the 25 portfolios against the 3-Factor and 4-Factor models.
 * Full diagnostic tests were performed for heteroskedasticity (White test), autocorrelation (Breusch-Godfrey, Durbin-Watson), and normality (Jarque-Bera).
-* **[See OLS regression tables here](results/)**
+* **[See OLS regression tables here](code/)**
 
 ### 2. Fama-MacBeth Two-Stage Regression
 To address issues of cross-sectional correlation and non-constant betas, the **Fama-MacBeth (1973) method** was implemented:
