@@ -29,7 +29,7 @@ The analysis was conducted in two main stages:
 ### 1. OLS Time-Series Regressions
 * Standard OLS regressions were run for each of the 25 portfolios against the 3-Factor and 4-Factor models.
 * Full diagnostic tests were performed for heteroskedasticity (White test), autocorrelation (Breusch-Godfrey, Durbin-Watson), and normality (Jarque-Bera).
-* **[See OLS regression tables here](code/)**
+* **[See OLS regression tables here](Code&Results/)**
 
 ### 2. Fama-MacBeth Two-Stage Regression
 To address issues of cross-sectional correlation and non-constant betas, the **Fama-MacBeth (1973) method** was implemented:
