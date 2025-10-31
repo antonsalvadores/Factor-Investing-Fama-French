@@ -4,7 +4,7 @@ This project, developed for the M.Sc. in Quantitative Banking and Finance, condu
 
 ---
 ### 📄 Key Project Documents
-* **[View the Final Paper (PDF)](docs/Statement.pdf)**
+* **[View the Final Paper (PDF)](docs/Paper.pdf)**
 * **[View the Assignment Guidelines (PDF)](docs/Assignment.pdf)**
 
 ### 📊 Key Results
